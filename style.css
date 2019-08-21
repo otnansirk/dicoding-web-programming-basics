@@ -1,0 +1,104 @@
+/**
+ * Theme : krisnantobi - theme (official)
+ * Author : krisnanto
+ */
+body{
+	margin:0px auto;
+	width: 100%;
+	font-family: 'Comfortaa', cursive;
+	line-height: 2;
+}
+
+.left{
+	right: left;
+	width: 50%;
+	position: absolute;
+	padding-left: 100px
+}
+
+.left nav svg{
+	width : 50px;
+	margin-top:20px;
+}
+
+.right{
+	right: 0;
+	width: 40%;
+	position: fixed;
+	overflow: hidden;
+}
+
+.sosmet a{
+	color: #9b9bff;
+	text-decoration: none;
+}
+
+.title {
+	line-height: 0.8;
+	font-weight: bold;
+	font-size:80px;
+	color: #cc3737;
+	font-family: 'Reenie Beanie', cursive;
+}
+
+.menu-bar {
+	background: #cc3737;
+	position: fixed;
+	height: 700px;
+	width: 0px;
+	right: 0
+}
+
+.menu-bar ul li, a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.menu-bar ul a:hover{
+	color: #9b9bff;
+	text-decoration: none;
+}
+
+.close svg {
+	width : 48px;
+	height : 48px;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+	.title {
+		font-size: 100px;
+		font-weight: bold;
+	}
+
+	.left{
+		width: 80%;
+		position: relative;
+		margin: 10px
+	}
+
+	.left nav svg{
+		width : 150px;
+		height:150px
+	}
+
+	.right{
+	  	margin: auto;
+		width: 80%;
+		position: relative;
+		overflow: hidden;
+	}
+
+	.menu-bar {
+		background: #cc3737;
+		position: fixed;
+		height: 100%;
+		right: 0;
+		top: 0;
+		font-size: 28px
+	}
+	.close svg  {
+		width : 88px;
+		height : 88px;
+	}
+
+}
